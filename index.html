@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> javascript methods</h1>
+    <script>
+        var str="Wow"
+        document.write(str.toUpperCase())
+        document.write("<br>")
+        document.write(str.toLowerCase())
+        document.write("<br>")
+        document.write(str.startsWith("w"))
+        document.write("<br>")
+
+        var str1="hello welcome to my webpage"
+        var patt=new RegExp("hello")
+        var res=patt.test(str)
+        document.write(res)
+
+        //loops 
+        var fruits=["apple","bannas","jack fruit","grapes","mango"]
+    for (i=0;i<fruits.length;i++){
+        var text=fruits[i]+"<br>"
+        document.write(text)
+    }
+
+    //switch
+    var day
+    switch (new Date().getDay()){
+        case 0: 
+        day="sunday"
+        break;
+        case 1: 
+        day="monday"
+        break;
+        case 2: 
+        day="tuesday"
+        break;
+        case 3: 
+        day="wednesday"
+        break;
+        case 4: 
+        day="thursday"
+        break;
+        case 5: 
+        day="friday"
+        break;
+        case 6: 
+        day="saturday"
+
+       
+    }
+    document.write(day)
+    </script>
+</body>
+</html>
