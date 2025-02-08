@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> java script objects</h1>
+    <p id="demo"></p>
+    <p id="result"></p>
+    <script>
+    var person={
+        firstname: "I",
+        age: 28,
+    }
+    document.getElementById("demo").innerHTML=person.firstname+" am "+person.age+" years old "
+    var value1=Math.acos(-1)
+    var value2=Math.asin(1)
+    var value3=Math.atan(.4)
+    document.write(value1)
+    document.write("<br>")
+    document.write(value2)
+    document.write("<br>")
+    document.write(value3)
+ function findmax(){
+    var max=0
+    for (i=0;i<arguments.length;i++)
+ {
+    if (arguments[i]>max){
+        max=arguments[i]
+    }
+ }
+ return max
+ }
+ document.getElementById("result").innerHTML=findmax(11,12,14,15,18)
+    </script>
+</body>
+</html>
