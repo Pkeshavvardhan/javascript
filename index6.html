@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> javascript arrays</h1>
+    <p id="demo"></p>
+    <p id="join"></p>
+    <p id="pop"></p>
+    <p id="result"></p>
+    <script>
+        var codingal=[
+            "coding",
+            "magic",
+            "learn"
+        ]
+        document.getElementById("demo").innerHTML=codingal[0]
+        var fruits=["apple","mango","grapes","pineapple"]
+        document.getElementById("join").innerHTML=fruits.join("*")
+        fruits.pop();
+        document.getElementById("pop").innerHTML=fruits
+
+        function add(a,b){
+            return a+b
+        }
+        function average(a,b){
+            return add(a,b)/2
+        }
+        let result=average(12,14)
+        document.getElementById("result").innerHTML=result
+    </script>
+</body>
+</html>
