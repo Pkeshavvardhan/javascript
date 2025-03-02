@@ -24,3 +24,9 @@ body{
      background-attachment: fixed;
      background-size: cover;
 }
+
+.about{
+background-color: blue;
+border-radius: 12px;
+}
+
