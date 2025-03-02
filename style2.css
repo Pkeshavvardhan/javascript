@@ -24,3 +24,8 @@ body{
           background-attachment:fixed;
           background-size:cover ;
 }
+
+.restaurant{
+    background-color: yellow;
+    border-radius: 12px;
+}
